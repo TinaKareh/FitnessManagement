@@ -23,9 +23,9 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "gym_packages")
-public class GymPackages implements Serializable {
+public class GymPackages {
 
-    private static final long serialVersionUID = 1L;
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "package_id")

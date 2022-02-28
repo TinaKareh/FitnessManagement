@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface PaymentRepository extends JpaRepository<Payments, Integer>{
+public interface PaymentRepository extends JpaRepository<Payments, Long>{
     
 }

@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface MedicalConditionRepository extends JpaRepository<MedicalConditions, Integer>{
+public interface MedicalConditionRepository extends JpaRepository<MedicalConditions, Long>{
     
 }

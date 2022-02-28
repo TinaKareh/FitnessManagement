@@ -13,6 +13,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface GymLevelRepository extends JpaRepository<GymLevels, Integer> {
+public interface GymLevelRepository extends JpaRepository<GymLevels, Long> {
     
 }

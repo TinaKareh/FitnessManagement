@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface MemberAttendanceRepository extends JpaRepository<MemberAttendance, Integer>{
+public interface MemberAttendanceRepository extends JpaRepository<MemberAttendance, Long>{
     
 }

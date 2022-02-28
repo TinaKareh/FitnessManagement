@@ -13,6 +13,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface AdministratorRepository extends JpaRepository<Administrator, Integer> {
+public interface AdministratorRepository extends JpaRepository<Administrator, Long> {
     
 }

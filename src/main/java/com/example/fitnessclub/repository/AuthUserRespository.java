@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface AuthUserRespository extends JpaRepository<AuthUser, Integer>{
+public interface AuthUserRespository extends JpaRepository<AuthUser, Long>{
     
 }

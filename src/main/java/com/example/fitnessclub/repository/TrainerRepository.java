@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  * @author Futuristic Ltd
  */
-public interface TrainerRepository extends JpaRepository<Trainer, Integer>{
+public interface TrainerRepository extends JpaRepository<Trainer, Long>{
     
 }
